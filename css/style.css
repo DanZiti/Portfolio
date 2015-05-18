@@ -1,0 +1,379 @@
+@charset "utf-8";
+
+/****************************************
+Global
+****************************************/
+
+@font-face {
+    font-family: 'swatchit';
+    src: url('../fonts/swatchit-webfont.eot');
+    src: url('../fonts/swatchit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swatchit-webfont.woff') format('woff'),
+         url('../fonts/swatchit-webfont.ttf') format('truetype'),
+         url('../fonts/swatchit-webfont.svg#swatchit') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-Regular-webfont.eot');
+    src: url('../fonts/Montserrat-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat-Regular-webfont.woff') format('woff'),
+         url('../fonts/Montserrat-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Montserrat-Regular-webfont.svg#montserrat') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-moz-tap-highlight-color: rgba(0, 0, 0, 0);
+	tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html, body {
+	min-width: 1000px;
+}
+
+body {
+	font-family: 'montserrat', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #333;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+p, h4 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	transition: opacity 0.2s;
+}
+
+a.over,
+a.down {
+	opacity: 0.5;
+}
+
+a.down {
+	text-decoration: underline;
+}
+
+button {
+	outline: none;
+	border: none;
+}
+
+.center {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+.white-border {
+	position: absolute;
+	left: 100%;
+	width: 420px;
+}
+
+#main-content section {
+	padding-bottom: 30px;
+}
+
+#main-content section:nth-of-type(odd) {
+	background: #eee;
+}
+
+#main-content section h3 {
+	width: 140px;
+	padding-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 20px;
+	position: relative;
+	font-family: 'swatchit', sans-serif;
+}
+
+#main-content section:nth-of-type(odd) h3 {
+	background: url('../img/down-arrow-white.png') no-repeat 30px 0;
+	background-size: 80px 30px;
+}
+
+#main-content section:nth-of-type(even) h3 {
+	background: url('../img/down-arrow-gray.png') no-repeat 30px 0;
+	background-size: 80px 30px;
+}
+
+/****************************************
+Header
+****************************************/
+
+header {
+	height: 74px;
+	background: #eee;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+	font-family: 'swatchit', sans-serif;
+	position: relative;
+	z-index: 2;
+}
+
+header #logo {
+	font-size: 32px;
+	line-height: 70px;
+	position: relative;
+	top: 4px;
+	letter-spacing: 1px;
+}
+
+header nav {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 4px;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	display: inline-block;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 70px;
+}
+
+header nav ul li:not(:first-child) {
+	margin-left: 30px;
+}
+
+/****************************************
+Top Content
+****************************************/
+
+#top {
+	height: 320px;
+	position: relative;
+	border-bottom: 10px solid #fff;
+	overflow: hidden;
+	z-index: 1;
+}
+
+#top .white-bg {
+	height: 100%;
+	width: 32%;
+	background: #fff;
+	position: absolute;
+	z-index: 1;
+}
+
+#title-info {
+	position: relative;
+	top: 100px;
+}
+
+#title-info h1 {
+	margin-bottom: 10px;
+	display: inline-block;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #333;
+}
+
+#top .city-txt {
+	position: absolute;
+	right: 0;
+	top: 260px;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+#philly {
+	position: absolute;
+	right: -380px;
+	top: -70px;
+	width: 110%;
+	z-index: 0;
+}
+
+/****************************************
+About
+****************************************/
+
+#specialties {
+	text-align: center;
+}
+
+#specialties .icon {
+	display: inline-block;
+}
+
+#specialties .icon:nth-of-type(2),
+#specialties .icon:nth-of-type(5) {
+	margin: 0 250px;
+}
+
+#specialties .icon:nth-of-type(n + 4) {
+	margin-top: 25px;
+}
+
+#specialties .icon > div {
+	width: 120px;
+	height: 120px;
+	border-radius: 65px;
+	margin: 0 auto 10px;
+	background: #0e60be;
+	transition: background 0.5s;
+}
+
+#specialties .icon > div > span {
+	display: block;
+	background-image: url('../img/specialties-sprite.png');
+	background-repeat: no-repeat;
+	background-size: 480px 97px;
+	position: relative;
+}
+
+#specialties .icon > div.over {
+	background: #2e3138;
+}
+
+#specialties .icon .HTML {
+	background-position: -1px -2px;
+	width: 69px;
+	height: 77px;
+	left: 27px;
+	top: 27px;
+}
+
+#specialties .icon .CSS {
+	background-position: -73px -2px;
+	width: 78px;
+	height: 71px;
+	left: 22px;
+	top: 30px;
+}
+
+#specialties .icon .JS {
+	background-position: -160px -6px;
+	width: 70px;
+	height: 50px;
+	left: 25px;
+	top: 35px;
+}
+
+#specialties .icon .RESPONSIVE {
+	background-position: -237px -2px;
+	width: 48px;
+	height: 93px;
+	left: 36px;
+	top: 14px;
+}
+
+#specialties .icon .PHOTOSHOP {
+	background-position: -293px -2px;
+	width: 79px;
+	height: 65px;
+	left: 24px;
+	top: 27px;
+}
+
+#specialties .icon .PHP {
+	background-position: -378px -2px;
+	width: 100px;
+	height: 49px;
+	left: 12px;
+	top: 36px;
+}
+
+/****************************************
+Work
+****************************************/
+
+
+
+/****************************************
+Contact
+****************************************/
+
+
+
+/****************************************
+Footer
+****************************************/
+
+footer {
+	width: 960px;
+	position: relative;
+	margin: 15px auto;
+	font-size: 14px;
+}
+
+footer ul {
+	list-style: none;
+	display: inline-block;
+}
+
+footer ul li {
+	display: inline-block;
+}
+
+footer ul li:first-of-type {
+	padding-right: 10px;
+}
+
+footer ul li:not(:first-of-type) {
+	padding: 0 10px;
+	border-left: 1px solid #333;
+}
+
+#scroll-top {
+	width: 48px;
+	height: 48px;
+	cursor: pointer;
+	border-radius: 25px;
+	background: #0e60be;
+	border: 5px solid #fff;
+	position: absolute;
+	right: 0;
+	top: -35px;
+	transition: background 0.4s;
+}
+
+#scroll-top.over {
+	background: #2e3138;
+}
+
+#scroll-top:before {
+	content: "\fe3f";
+	color: #fff;
+	position: relative;
+	top: -8px;
+	font-size: 28px;
+}
