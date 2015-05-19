@@ -2,10 +2,24 @@
 	
 	// Generic functionality used throughout the site
 	
+	// Primary page navigation
+	//
+	$(".nav-about").on(drz.interaction, function() {
+		drz.navigate("about");
+	});
+	
+	$(".nav-work").on(drz.interaction, function() {
+		drz.navigate("work");
+	});
+	
+	$(".nav-contact").on(drz.interaction, function() {
+		drz.navigate("contact");
+	});
+	
 	// Jump back to the top of the page
 	//
 	$("#scroll-top").on(drz.interaction, function() {
-		window.location.href = "index.php";
+		$(window).scrollTop(0);
 	});
 	
 	// Submit the contact form

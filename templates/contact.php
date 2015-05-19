@@ -1,9 +1,9 @@
 
-	<section id="contact-content" style="min-height: 800px;"><!-- TEMPORARY STYLE -->
+	<section id="contact-content">
 		<div class="center">
 			<h3>contact me</h3>
 			<div class="left">
-				<p>Interested in working together? Please feel free to get in touch, even if just to talk tech for a little bit...</p>
+				<p>Interested in working together? Please feel free to get in touch, even if just to talk tech for a little while...</p>
 				<ul>
 					<li class="PHONE">609.634.6660</li>
 					<li class="EMAIL">dan.zervoudakes@gmail.com</li>

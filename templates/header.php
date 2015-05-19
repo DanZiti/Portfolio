@@ -4,9 +4,9 @@
 			<p id="logo">&lt;/drz&gt;</p>
 			<nav>
 				<ul>
-					<li><a href="#about-content">about</a></li>
-					<li><a href="#work-content">work</a></li>
-					<li><a href="#contact-content">contact</a></li>
+					<li><a href="javascript:void(0);" class="nav-about">about</a></li>
+					<li><a href="javascript:void(0);" class="nav-work">work</a></li>
+					<li><a href="javascript:void(0);" class="nav-contact">contact</a></li>
 				</ul>
 			</nav>
 		</div>

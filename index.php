@@ -30,7 +30,7 @@
 					</div>
 					<p class="city-txt">Currently Based in the Greater Philadelphia Area</p>
 				</div>
-				<img id="philly" src="img/philly-banner.jpg" alt="Philadelphia Skyline">
+				<img id="parallax" src="img/philly-banner.jpg" alt="Philadelphia Skyline">
 			</div>
 			<?php
 				include 'templates/about.php';

@@ -4,17 +4,17 @@
 	//
 	drz.parallax = function() {
 		var scrolled = $(window).scrollTop();
-		$("#philly").css("top", (scrolled * 0.18) - 70 + "px");
+		$("#parallax").css("top", (scrolled * 0.18) - 70 + "px");
 	};
 	
-	var isiPad = navigator.userAgent.match(/iPad/i) != null;
+	var isMobile = navigator.userAgent.match(/Android|webOS|iPad|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i) !== null;
 	
-	if (!isiPad) {
+	if (!isMobile) {
 		
 		$(window).scroll(function() {
 			drz.parallax();
 		});
 		
-	} // End isiPad check
+	}
 	
 })();
