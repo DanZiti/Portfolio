@@ -1,9 +1,11 @@
 # Portfolio
 
-_The source code behind my personal portfolio site._
+_Behind the scenes of my web development portfolio._
 
-Currently undergoing a design overhaul... Target release date: late May / early June, 2015.
+The live site can be viewed here: http://www.drzwebdev.com/
 
-The working prototype can be viewed here: http://drzwebdev.com/beta/portfolio/
+This site does _not_ support IE 8, AND IT NEVER WILL.
 
-This site does _not_ support IE 8.
+##### Note:
+
+The site is currently not responsive - responsive elements due for deployment by early June.

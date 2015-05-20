@@ -21,12 +21,6 @@
 		drz.navigate("contact");
 	});
 	
-	// Jump back to the top of the page
-	//
-	$("#scroll-top").on(drz.interaction, function() {
-		$(window).scrollTop(0);
-	});
-	
 	// Submit the contact form
 	//
 	var _form = document.getElementById("contact-form");
@@ -39,6 +33,42 @@
 	//
 	$(window).load(function() {
 		$("header a, footer a, #specialties .icon > div, #scroll-top, #about-content a, .social span, .submit-btn, .work-block .sample .links a").mouseable();
+	});
+	
+	// Scroll back to the top of the page
+	//
+	function scrollToTop() {
+		
+		var scrollHeight = window.scrollY;
+		var scrollStep = Math.PI / (400 / 15); // Duration = 400ms
+		var cosParameter = scrollHeight / 2;
+		
+		var scrollCount = 0;
+		var scrollMargin;
+		
+		requestAnimationFrame(step);
+		
+		function step() {
+			
+			setTimeout(function() {
+				
+				if (window.scrollY != 0) {
+					
+					requestAnimationFrame(step);
+					
+					scrollCount = scrollCount + 1;
+					scrollMargin = cosParameter - cosParameter * Math.cos(scrollCount * scrollStep);
+					
+					$(window).scrollTop(scrollHeight - scrollMargin);
+				}
+				
+			}, 15);
+			
+		};
+	};
+	
+	$("#scroll-top").on(drz.interaction, function() {
+		scrollToTop();
 	});
 	
 })();

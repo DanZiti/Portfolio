@@ -51,7 +51,7 @@
 				
 				<div class="sample">
 					<div class="sample-inner">
-						<img src="img/samples/philly-banner.jpg" alt="jQuery Slider Template">
+						<img src="img/samples/slider-icon.jpg" alt="jQuery Slider Template">
 						<div class="info">
 							<h4>Slider Template</h4>
 							<p>Rotating picture slider that reduces DOM clutter.</p>
@@ -78,7 +78,7 @@
 				
 				<div class="sample">
 					<div class="sample-inner">
-						<img src="img/samples/philly-banner.jpg" alt="Spritz">
+						<img src="img/samples/spritz-icon.jpg" alt="Spritz">
 						<div class="info">
 							<h4>Spritz</h4>
 							<p>Export simple Photoshop sprite sheets with the quickness.</p>
@@ -91,7 +91,7 @@
 				
 				<div class="sample">
 					<div class="sample-inner">
-						<img src="img/samples/philly-banner.jpg" alt="jQuery doubleTap()">
+						<img src="img/samples/doubleTap-icon.jpg" alt="jQuery doubleTap()">
 						<div class="info">
 							<h4>jQuery doubleTap()</h4>
 							<p>Simplistic double-tap/click plugin for jQuery.</p>
@@ -104,7 +104,7 @@
 				
 				<div class="sample">
 					<div class="sample-inner">
-						<img src="img/samples/philly-banner.jpg" alt="jQuery mouseable()">
+						<img src="img/samples/mouseable-icon.jpg" alt="jQuery mouseable()">
 						<div class="info">
 							<h4>jQuery mouseable()</h4>
 							<p>A delightfully !DOCTYPE-agnostic answer to hover/active states.</p>

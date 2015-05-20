@@ -1,6 +1,6 @@
 (function() {
 	
-	// Controls parallax image scrolling for "Philly banner"
+	// Controls parallax image in the top-right
 	//
 	drz.parallax = function() {
 		var scrolled = $(window).scrollTop();

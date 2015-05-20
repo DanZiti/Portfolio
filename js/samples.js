@@ -1,6 +1,6 @@
 (function() {
 	
-	// Control the ".work-block .sample" animations... Must be specific functionality for desktop and mobile
+	// Control the ".work-block .sample" animations... Including specific functionality for desktop and mobile
 	//
 	var _samples = document.querySelectorAll(".work-block .sample");
 	
