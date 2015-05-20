@@ -2,6 +2,11 @@
 	
 	// Generic functionality used throughout the site
 	
+	// Interaction instruction for "work" section
+	//
+	var _instruction = ("createTouch" in document) ? "Tap on" : "Hover over";
+	$("#instruction").html(_instruction);
+	
 	// Primary page navigation
 	//
 	$(".nav-about").on(drz.interaction, function() {
@@ -33,7 +38,7 @@
 	// Create mouseable states
 	//
 	$(window).load(function() {
-		$("header a, footer a, #specialties .icon > div, #scroll-top, #about-content a, .social span, .submit-btn").mouseable();
+		$("header a, footer a, #specialties .icon > div, #scroll-top, #about-content a, .social span, .submit-btn, .work-block .sample, .work-block .sample .links a").mouseable();
 	});
 	
 })();
