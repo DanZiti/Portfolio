@@ -9,7 +9,7 @@
 				
 				<div class="sample">
 					<div class="sample-inner">
-						<img src="img/samples/philly-banner.jpg" alt="StreamYourAd">
+						<img src="img/samples/streamyourad-icon.jpg" alt="StreamYourAd">
 						<div class="info">
 							<h4>StreamYourAd</h4>
 							<p>Once a client site... now a dummy site.</p>
@@ -23,7 +23,7 @@
 				
 				<div class="sample">
 					<div class="sample-inner">
-						<img src="img/samples/philly-banner.jpg" alt="Grindstone.js">
+						<img src="img/samples/grindstonejs-icon.jpg" alt="Grindstone.js">
 						<div class="info">
 							<h4>Grindstone.js</h4>
 							<p>My custom, lightweight (8kb) jQuery alternative.</p>
@@ -37,7 +37,7 @@
 				
 				<div class="sample">
 					<div class="sample-inner">
-						<img src="img/samples/philly-banner.jpg" alt="Shift.js">
+						<img src="img/samples/shiftjs-icon.jpg" alt="Shift.js">
 						<div class="info">
 							<h4>Shift.js</h4>
 							<p>CSS3 transitions/transforms achieved through JavaScript.</p>
@@ -65,7 +65,7 @@
 				
 				<div class="sample">
 					<div class="sample-inner">
-						<img src="img/samples/philly-banner.jpg" alt="VeevaThumb">
+						<img src="img/samples/veevathumb-icon.jpg" alt="VeevaThumb">
 						<div class="info">
 							<h4>VeevaThumb</h4>
 							<p>Photoshop script for exporting Veeva eDetailing thumbnails.</p>
@@ -107,7 +107,7 @@
 						<img src="img/samples/philly-banner.jpg" alt="jQuery mouseable()">
 						<div class="info">
 							<h4>jQuery mouseable()</h4>
-							<p>A delightfully !DOCTYPE-agnostic answer to hovering/active states.</p>
+							<p>A delightfully !DOCTYPE-agnostic answer to hover/active states.</p>
 							<div class="links">
 								<a class="git" href="https://github.com/DanZiti/jQuery-mouseable" title="View Source on GitHub"></a>
 							</div>

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>
-		<title>Dan Zervoudakes | Web Development Portfolio</title>
+		<title>Dan Zervoudakes | A Refreshingly Minimalistic Web Development Portfolio</title>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="msapplication-tap-highlight" content="no">
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+		<!-- <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0"> -->
+		<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0">
 		<meta name="description" content="I am passionate web/interactive developer looking to tackle new challenges. Please contact me to discuss my work or even just to talk tech.">
 		<meta name="keywords" content="Dan Zervoudakes, Developer, Portfolio, Web, Interactive, HTML5, CSS3, JavaScript, Responsive, Photoshop, PHP">
 		<meta name="author" content="Dan Zervoudakes">
@@ -43,5 +44,6 @@
 		?>
 		<script type="text/javascript" src="js/script.js" async></script>
 		<script type="text/javascript" src="js/parallax.js" async></script>
+		<script type="text/javascript" src="js/samples.js" async></script>
 	</body>
 </html>

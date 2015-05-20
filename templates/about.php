@@ -47,7 +47,7 @@
 				</div>
 			</div>
 			
-			<p>Thus far I have spent most of my time developing web applications within the biopharmaceutical industry &ndash; most notably working with <a href="https://www.red-nucleus.com/" target="_blank">Red Nucleus</a> and <a href="http://www.bms.com/pages/default.aspx" target="_blank">Bristol-Myers Squibb</a> &ndash; and I am excited to utilize my skill set within other verticals as well.</p>
+			<p>Thus far I have spent most of my time developing web applications within the biopharmaceutical industry &ndash; most notably working with <a href="https://www.red-nucleus.com/" title="Learning Solutions for the Life Sciences Industry" target="_blank">Red Nucleus</a> and <a href="http://www.bms.com/pages/default.aspx" title="A Global Biopharmaceutical Company" target="_blank">Bristol-Myers Squibb</a> &ndash; and I am excited to utilize my skill set within other verticals as well.</p>
 			
 		</div>
 	</section>

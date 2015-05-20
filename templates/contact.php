@@ -9,13 +9,13 @@
 					<li class="EMAIL">dan@drzwebdev.com</li>
 				</ul>
 				<div class="social">
-					<a href="https://www.facebook.com/dan.zervoudakes">
+					<a href="https://www.facebook.com/dan.zervoudakes" title="Find Me on Facebook">
 						<span class="FACEBOOK"></span>
 					</a>
-					<a href="https://twitter.com/DanZervo">
+					<a href="https://twitter.com/DanZervo" title="Follow Me on Twitter">
 						<span class="TWITTER"></span>
 					</a>
-					<a href="https://www.linkedin.com/in/drzerv">
+					<a href="https://www.linkedin.com/in/drzerv" title="Connect With Me on LinkedIn">
 						<span class="LINKEDIN"></span>
 					</a>
 				</div>

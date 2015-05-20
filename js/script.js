@@ -38,7 +38,7 @@
 	// Create mouseable states
 	//
 	$(window).load(function() {
-		$("header a, footer a, #specialties .icon > div, #scroll-top, #about-content a, .social span, .submit-btn, .work-block .sample, .work-block .sample .links a").mouseable();
+		$("header a, footer a, #specialties .icon > div, #scroll-top, #about-content a, .social span, .submit-btn, .work-block .sample .links a").mouseable();
 	});
 	
 })();
