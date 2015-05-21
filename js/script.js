@@ -48,9 +48,7 @@
 			var scrollCount = 0;
 			var scrollMargin;
 			
-			requestAnimationFrame(step);
-			
-			function step() {
+			var step = function() {
 				
 				setTimeout(function() {
 					
@@ -67,7 +65,8 @@
 				}, 15);
 				
 			};
-		
+			
+			requestAnimationFrame(step);
 		}
 		
 		else {
