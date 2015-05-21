@@ -9,5 +9,10 @@
 					<li><a href="javascript:void(0);" class="nav-contact" title="Get in Touch">contact</a></li>
 				</ul>
 			</nav>
+			<button id="responsive-menu-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
 		</div>
 	</header>

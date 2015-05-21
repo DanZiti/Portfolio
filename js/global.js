@@ -21,6 +21,16 @@
 		deactivate: function(_element) {
 			$(_element).removeClass("ACTIVE");
 			return this;
+		},
+		
+		select: function(_element, _toggle) {
+			$(_element)[_toggle ? "toggleClass" : "addClass"]("SELECTED");
+			return this;
+		},
+		
+		deselect: function(_element) {
+			$(_element).removeClass("SELECTED");
+			return this;
 		}
 		
 	};

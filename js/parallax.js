@@ -12,7 +12,7 @@
 	if (!isMobile) {
 		
 		$(window).scroll(function() {
-			drz.parallax();
+			if (window.innerWidth >= 1000) drz.parallax();
 		});
 		
 	}
