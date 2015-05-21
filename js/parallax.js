@@ -17,7 +17,7 @@
 				drz.parallax();
 			}
 			
-			else {
+			else if (window.innerWidth < 1000) {
 				$("#parallax").css("top", "0");
 			}
 			

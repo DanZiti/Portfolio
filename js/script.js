@@ -35,14 +35,20 @@
 		$("header a, footer a, #specialties .icon > div, #scroll-top, #about-content a, .social span, .submit-btn, .work-block .sample .links a, #responsive-menu-btn").mouseable();
 	});
 	
-	// Scroll back to the top of the page - only animate scrolling on screens wider than 500px
+	// Scroll back to the top of the page
 	//
 	function scrollToTop() {
 		
-		if (window.innerWidth >= 500) {
+		var isIE = navigator.userAgent.indexOf("MSIE") !== -1 || navigator.appVersion.indexOf("Trident/") > 0;
 		
+		if (isIE) {
+			$(window).scrollTop(0); // The animation here causes headaches in IE (of course), so let's just skip it...
+		}
+		
+		else {
+			
 			var scrollHeight = window.scrollY;
-			var scrollStep = Math.PI / (400 / 15); // Duration = 400ms
+			var scrollStep = Math.PI / (420 / 15); // Duration = 420ms... Setting the duration at 400ms caused strange repeating-animation errors
 			var cosParameter = scrollHeight / 2;
 			
 			var scrollCount = 0;
@@ -67,12 +73,8 @@
 			};
 			
 			requestAnimationFrame(step);
-		}
 		
-		else {
-			$(window).scrollTop(0);
-		}
-		
+		} // End isIE check
 	};
 	
 	$("#scroll-top").on(drz.interaction, function() {
