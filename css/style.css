@@ -727,7 +727,7 @@ Responsive Layouts
 	#specialties .icon,
 	#specialties .icon:nth-of-type(2),
 	#specialties .icon:nth-of-type(5) {
-		margin: 10px;
+		margin: 0 50px;
 	}
 	
 }
@@ -774,6 +774,16 @@ Responsive Layouts
 	
 	#contact-content .social {
 		margin-bottom: 20px;
+	}
+	
+}
+
+@media only screen and (max-width: 465px) {
+	
+	#specialties .icon,
+	#specialties .icon:nth-of-type(2),
+	#specialties .icon:nth-of-type(5) {
+		margin: 0 15px;
 	}
 	
 }
