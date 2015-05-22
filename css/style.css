@@ -722,6 +722,10 @@ Responsive Layouts
 		width: 130%;
 	}
 	
+	#contact-form {
+		margin-right: 5px;
+	}
+	
 }
 
 @media only screen and (max-width: 910px) {
@@ -761,6 +765,11 @@ Responsive Layouts
 	#contact-content .left,
 	#contact-content .right {
 		width: 96%;
+		margin: 0 auto;
+	}
+	
+	#contact-form {
+		width: 98%;
 	}
 	
 	#contact-content .right {
@@ -836,10 +845,6 @@ Responsive Layouts
 	header nav ul li:last-child {
 		border-bottom: 1px solid #c0c0c0;
 	}
-	
-}
-
-@media only screen and (max-width: 400px) {
 	
 	#title-info {
 		top: 67px;
