@@ -10,7 +10,7 @@
 		
 		// For redirect after form submission
 		//
-		$home_page = "index.php";
+		$home_page = "http://www.drzwebdev.com/";
 		
 		// Call form data
 		//
