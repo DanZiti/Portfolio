@@ -53,10 +53,10 @@
 					<div class="sample-inner">
 						<img src="img/samples/slider-icon.jpg" alt="Dynamic Slider">
 						<div class="info">
-							<h4>Dynamic Slider</h4>
+							<h4>Dynamic</h4>
 							<p>A versatile picture<br>slider plugin.</p>
 							<div class="links">
-								<!-- <a class="site" href="http://dynamic.drzwebdev.com/" title="View Live Site"></a> -->
+								<a class="site" href="http://dynamic.drzwebdev.com/" title="View Live Site"></a>
 								<a class="git" href="https://github.com/DanZiti/Dynamic" title="View Source on GitHub"></a>
 							</div>
 						</div>
