@@ -14,7 +14,7 @@
 							<h4>StreamYourAd</h4>
 							<p>Once a client site... now a dummy site.</p>
 							<div class="links">
-								<a class="site" href="http://drzwebdev.com/sites/StreamYourAd/" title="View Live Site"></a>
+								<a class="site" href="http://drzwebdev.com/sites/StreamYourAd" title="View Live Site"></a>
 								<a class="git" href="https://github.com/DanZiti/StreamYourAd" title="View Source on GitHub"></a>
 							</div>
 						</div>
@@ -28,7 +28,7 @@
 							<h4>Grindstone.js</h4>
 							<p>My custom, lightweight (8kb) jQuery alternative.</p>
 							<div class="links">
-								<a class="site" href="http://grindstonejs.drzwebdev.com/" title="View Live Site"></a>
+								<a class="site" href="http://grindstonejs.drzwebdev.com" title="View Live Site"></a>
 								<a class="git" href="https://github.com/DanZiti/GrindstoneJS" title="View Source on GitHub"></a>
 							</div>
 						</div>
@@ -42,7 +42,7 @@
 							<h4>Shift.js</h4>
 							<p>CSS3 transitions/transforms achieved through JavaScript.</p>
 							<div class="links">
-								<a class="site" href="http://shiftjs.drzwebdev.com/" title="View Live Site"></a>
+								<a class="site" href="http://shiftjs.drzwebdev.com" title="View Live Site"></a>
 								<a class="git" href="https://github.com/DanZiti/ShiftJS" title="View Source on GitHub"></a>
 							</div>
 						</div>
@@ -56,7 +56,7 @@
 							<h4>Dynamic</h4>
 							<p>A versatile picture<br>slider plugin.</p>
 							<div class="links">
-								<a class="site" href="http://dynamic.drzwebdev.com/" title="View Live Site"></a>
+								<a class="site" href="http://dynamic.drzwebdev.com" title="View Live Site"></a>
 								<a class="git" href="https://github.com/DanZiti/Dynamic" title="View Source on GitHub"></a>
 							</div>
 						</div>
