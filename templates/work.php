@@ -51,13 +51,13 @@
 				
 				<div class="sample">
 					<div class="sample-inner">
-						<img src="img/samples/slider-icon.jpg" alt="jQuery Slider Template">
+						<img src="img/samples/slider-icon.jpg" alt="Dynamic Slider">
 						<div class="info">
-							<h4>Slider Template</h4>
-							<p>Rotating picture slider that reduces DOM clutter.</p>
+							<h4>Dynamic Slider</h4>
+							<p>A versatile picture<br>slider plugin.</p>
 							<div class="links">
-								<a class="site" href="http://www.drzwebdev.com/webApps/Slider/" title="View Live Site"></a>
-								<a class="git" href="https://github.com/DanZiti/Dynamic-Slider" title="View Source on GitHub"></a>
+								<!-- <a class="site" href="http://dynamic.drzwebdev.com/" title="View Live Site"></a> -->
+								<a class="git" href="https://github.com/DanZiti/Dynamic" title="View Source on GitHub"></a>
 							</div>
 						</div>
 					</div>
