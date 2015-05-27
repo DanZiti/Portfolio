@@ -639,6 +639,10 @@ li.EMAIL {
 	border-radius: 0; /* Removes automatic rounded edges in iOS */
 }
 
+#contact-form > input.invalid {
+	border: 1px solid #f00;
+}
+
 /****************************************
 Footer
 ****************************************/

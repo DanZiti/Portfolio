@@ -21,14 +21,6 @@
 		drz.navigate("contact");
 	});
 	
-	// Submit the contact form
-	//
-	var _form = document.getElementById("contact-form");
-	
-	_form.onsubmit = function() {
-		alert("Hey there, thanks for submitting: I'll be in touch soon!");
-	};
-	
 	// Create mouseable states
 	//
 	$(window).load(function() {

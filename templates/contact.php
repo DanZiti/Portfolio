@@ -21,7 +21,7 @@
 				</div>
 			</div>
 			<div class="right">
-				<form id="contact-form" action="mail.php" method="post">
+				<form id="contact-form" name="contact-form" action="mail.php" method="post">
 					<input type="text" name="name" placeholder="name (required)" required>
 					<input type="email" name="email" placeholder="email (required)" required>
 					<input type="text" name="subject" placeholder="subject">
