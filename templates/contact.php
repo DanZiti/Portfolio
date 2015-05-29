@@ -4,6 +4,7 @@
 			<h3>contact me</h3>
 			<div class="left">
 				<p>Interested in working together? Please feel free to get in touch, even if just to chat for a little while...</p>
+				<p><strong>Warning:</strong> Do not use this form to pitch me your SEO service &ndash; it will instantly be marked as spam.</p>
 				<ul>
 					<li class="PHONE">609.634.6660</li>
 					<li class="EMAIL">dan@drzwebdev.com</li>

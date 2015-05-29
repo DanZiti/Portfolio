@@ -473,7 +473,7 @@ Contact
 
 #contact-content .left,
 #contact-content .right {
-	width: 49%;
+	width: 48%;
 }
 
 #contact-content .left {
@@ -488,7 +488,7 @@ Contact
 
 #contact-content ul {
 	list-style: none;
-	margin: 40px 0;
+	margin: 38px 0;
 }
 
 #contact-content li {
