@@ -28,9 +28,9 @@
 						<h1>dan.zervoudakes</h1>
 						<h2>web / interactive developer</h2>
 					</div>
-					<p class="city-txt">Currently Based in the Greater Philadelphia Area</p>
+					<p class="city-txt">Currently Based in Denver, Colorado</p>
 				</div>
-				<img id="parallax" src="img/philly-banner.jpg" alt="Philadelphia Skyline">
+				<img id="parallax" src="img/denver-banner.jpg" alt="Denver Skyline">
 			</div>
 			<?php
 				include 'templates/about.php';
