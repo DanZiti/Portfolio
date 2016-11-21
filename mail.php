@@ -1,46 +1,40 @@
 <?php
 	
-	if (isset($_POST["email"])) {
+	if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["subject"]) && isset($_POST["comments"])) {
 		
-		// Address and subject
-		//
-		$form_subject = $_POST["subject"];
-		$email_to = "dan@drzwebdev.com";
-		$email_subject = "drzwebdev submission: $form_subject";
+		// address and subject
+		$formSubject = $_POST["subject"];
+		$emailTo = "dan@drzwebdev.com";
+		$emailSubject = "drzwebdev submission: $formSubject";
 		
-		// For redirect after form submission
-		//
-		$home_page = "http://www.drzwebdev.com/";
+		// for redirect after form submission
+		//$homePage = "http://www.drzwebdev.com/?formSubmitted=true";
+		$homePage = "http://localhost:8888/portfolio/?formSubmitted=true"; // @TODO: REMOVE THIS WHEN READY FOR PROD
 		
-		// Call form data
-		//
+		// call form data
 		$name = $_POST["name"];
-		$email_from = $_POST["email"];
+		$emailFrom = $_POST["email"];
 		$comments = $_POST["comments"];
 		
-		// Begin message content
-		//
-		$email_message = "New inquiry submitted.\n\n";
+		// begin message content
+		$emailMessage = "New inquiry submitted.\n\n";
 		
-		function clean_string($string) {
+		function cleanString($string) {
 			$bad = array("content-type", "bcc:", "to:", "cc:", "href");
 			return str_replace($bad, "", $string);
 		}
 		
-		// Fill email content
-		//
-		$email_message .= "Name: " . clean_string($name) . "\n";
-		$email_message .= "Email: " . clean_string($email_from) . "\n";
-		$email_message .= "Comments: " . clean_string($comments) . "\n";
+		// fill email content
+		$emailMessage .= "Name: " . cleanString($name) . "\n";
+		$emailMessage .= "Email: " . cleanString($emailFrom) . "\n";
+		$emailMessage .= "Comments: " . cleanString($comments) . "\n";
 		
-		// Create email headers
-		//
-		$headers = "From: " . $email_from . "\r\n" . "Reply-To: " . $email_from . "\r\n" . "X-Mailer: PHP/" . phpversion();
+		// create email headers
+		$headers = "From: $emailFrom \r\nReply-To: $emailFrom \r\nX-Mailer: PHP/" . phpversion();
 		
-		// Send email and redirect back to Home page
-		//
-		@mail($email_to, $email_subject, $email_message, $headers);
-		@header("Location: $home_page");
+		// send email and redirect back to Home page
+		@mail($emailTo, $emailSubject, $emailMessage, $headers);
+		@header("Location: $homePage");
 		
 	}
 	

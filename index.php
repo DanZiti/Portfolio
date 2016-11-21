@@ -4,6 +4,8 @@
 		<title>Dan Zervoudakes | A Refreshingly Minimalistic Web Development Portfolio</title>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
 		<meta name="msapplication-tap-highlight" content="no">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
 		<meta name="description" content="I am a passionate web/interactive developer looking to tackle new challenges. Please contact me to discuss my work or even just to chat.">
@@ -11,17 +13,15 @@
 		<meta name="author" content="Dan Zervoudakes">
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
-		<script type="text/javascript" src="js/grindstone-v1.2.5.min.js"></script>
-		<script type="text/javascript" src="js/global.js"></script>
 	</head>
 	<body>
 		<?php
-			include 'templates/header.php';
+			include 'includes/header.php';
 		?>
 		<article id="main-content">
 			<div id="top">
 				<div class="white-bg">
-					<img class="white-border" src="img/white-border.png" alt="Border">
+					<img class="white-border" src="images/white-border.png" alt="Border">
 				</div>
 				<div class="center">
 					<div id="title-info">
@@ -30,20 +30,19 @@
 					</div>
 					<p class="city-txt">Currently Based in Denver, Colorado</p>
 				</div>
-				<img id="parallax" src="img/denver-banner.jpg" alt="Denver Skyline">
+				<img id="parallax" src="images/denver-banner.jpg" alt="Denver Skyline">
 			</div>
 			<?php
-				include 'templates/about.php';
-				include 'templates/work.php';
-				include 'templates/contact.php';
+				include 'includes/about.php';
+				include 'includes/work.php';
+				include 'includes/contact.php';
 			?>
 		</article>
 		<?php
-			include 'templates/footer.php';
+			include 'includes/footer.php';
 		?>
-		<script type="text/javascript" src="js/script.js" async></script>
-		<script type="text/javascript" src="js/parallax.js" async></script>
-		<script type="text/javascript" src="js/samples.js" async></script>
-		<script type="text/javascript" src="js/validation.js" async></script>
+		<script type="text/javascript" src="js/grindstone-v2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/services.js"></script>
+		<script type="text/javascript" src="js/portfolio.js"></script>
 	</body>
 </html>
