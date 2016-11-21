@@ -18,19 +18,19 @@
 		<?php
 			include 'includes/header.php';
 		?>
-		<article id="main-content">
-			<div id="top">
+		<article class="main-content">
+			<div class="top">
 				<div class="white-bg">
 					<img class="white-border" src="images/white-border.png" alt="Border">
 				</div>
 				<div class="center">
-					<div id="title-info">
+					<div class="title-info">
 						<h1>dan.zervoudakes</h1>
 						<h2>web / interactive developer</h2>
 					</div>
 					<p class="city-txt">Currently Based in Denver, Colorado</p>
 				</div>
-				<img id="parallax" src="images/denver-banner.jpg" alt="Denver Skyline">
+				<img id="parallax" class="parallax" src="images/denver-banner.jpg" alt="Denver Skyline">
 			</div>
 			<?php
 				include 'includes/about.php';

@@ -1,10 +1,10 @@
-<section id="about-content">
+<section id="about-content" class="about-content">
 	<div class="center">
 		<h3>about me</h3>
 		<p>I consider myself a professional web junkie, constantly scouring the internet to get my fix. Throughout my career, I have cultivated a proven track record of producing high-quality work effectively and efficiently as related to web sites and web applications.</p>
 		<p>I have a genuine passion for exploring new technologies and development tools, and have also published a few tools of my own for other developers to experiment with and explore.</p>
 		<h4>Some of my specialties include:</h4>
-		<div id="specialties">
+		<div id="specialties" class="specialties">
 			<div class="icon">
 				<div>
 					<span class="HTML"></span>

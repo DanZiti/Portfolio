@@ -1,4 +1,4 @@
-<section id="work-content">
+<section id="work-content" class="work-content">
 	<div class="center">
 		
 		<h3>my work</h3>
