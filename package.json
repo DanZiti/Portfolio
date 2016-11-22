@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "description": "Compile the final output of my portfolio.",
+  "author": "Dan Zervoudakes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dzervoudakes/portfolio"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-uglify": "^1.5.3"
+  },
+  "engine": "node >= 0.10",
+  "license": "MIT"
+}

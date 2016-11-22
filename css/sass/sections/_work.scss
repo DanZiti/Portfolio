@@ -1,0 +1,78 @@
+.work-content {
+	.work-block {
+		.sample {
+			display: inline-block;
+			position: relative;
+			width: 220px;
+			height: 180px;
+			overflow: hidden;
+			margin: 5px;
+			color: #fff;
+			.sample-inner {
+				width: 440px;
+				height: 100%;
+				transition: all 0.4s ease-in-out;
+			}
+			img,
+			.info {
+				width: 220px;
+				height: 180px;
+				float: left;
+				position: relative;
+			}
+			.info {
+				background: $gray;
+			}
+			&.ACTIVE .sample-inner {
+				-webkit-transform: translateX(-220px);
+				transform: translateX(-220px);
+			}
+			h4 {
+				font-size: 20px;
+				font-family: $montserrat;
+				margin: 20px 0 10px;
+			}
+			p {
+				font-size: 13px;
+				padding: 0 10px;
+			}
+			.links {
+				position: absolute;
+				bottom: 15px;
+				text-align: center;
+				width: 100%;
+				a {
+					display: inline-block;
+					width: 46px;
+					height: 46px;
+					background-color: #3a3d46;
+					border-radius: 25px;
+					transition: background-color 0.4s;
+					&.over {
+						background-color: #1278ee;
+						opacity: 1;
+					}
+					&.site {
+						background: {
+							image: url('../images/link-icon.png');
+							repeat: no-repeat;
+							position: 13px 13px;
+							size: 20px 20px;
+						}
+					}
+					&.git {
+						background: {
+							image: url('../images/git-icon.png');
+							repeat: no-repeat;
+							position: 11px 14px;
+							size: 24px 20px;
+						}
+					}
+					&:nth-of-type(2) {
+						margin-left: 20px;
+					}
+				}
+			}
+		}
+	}
+}

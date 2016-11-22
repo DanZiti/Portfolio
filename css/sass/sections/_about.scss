@@ -1,0 +1,85 @@
+.about-content {
+	a {
+		color: $blue;
+		&.over,
+		&.down {
+			opacity: 0.6;
+		}
+	}
+	.specialties {
+		text-align: center;
+		margin-bottom: 15px;
+		.icon {
+			display: inline-block;
+			&:nth-of-type(2),
+			&:nth-of-type(5) {
+				margin: 0 250px;
+			}
+			&:nth-of-type(n + 4) {
+				margin-top: 25px;
+			}
+			> div {
+				width: 120px;
+				height: 120px;
+				border-radius: 65px;
+				margin: 0 auto 10px;
+				background: $blue;
+				transition: background 0.4s;
+				span {
+					display: block;
+					background: {
+						image: url('../images/specialties-sprite.png');
+						repeat: no-repeat;
+						size: 480px 97px;
+					}
+					position: relative;
+				}
+				&.over {
+					background: $gray;
+				}
+			}
+			.HTML {
+				background-position: -1px -2px;
+				width: 69px;
+				height: 77px;
+				left: 27px;
+				top: 27px;
+			}
+			.CSS {
+				background-position: -73px -2px;
+				width: 78px;
+				height: 71px;
+				left: 22px;
+				top: 30px;
+			}
+			.JS {
+				background-position: -160px -6px;
+				width: 70px;
+				height: 50px;
+				left: 25px;
+				top: 35px;
+			}
+			.RESPONSIVE {
+				background-position: -237px -2px;
+				width: 48px;
+				height: 93px;
+				left: 36px;
+				top: 14px;
+			}
+			.PHOTOSHOP {
+				background-position: -293px -2px;
+				width: 79px;
+				height: 65px;
+				left: 24px;
+				top: 27px;
+			}
+			.PHP {
+				background-position: -378px -2px;
+				width: 100px;
+				height: 49px;
+				left: 12px;
+				top: 36px;
+			}
+		}
+	}
+}

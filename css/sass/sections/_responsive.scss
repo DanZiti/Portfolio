@@ -1,0 +1,165 @@
+@media only screen and (min-width: 1600px) {
+	.top .white-bg {
+		width: 44%;
+	}
+	.parallax {
+		right: 0;
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	html, body {
+		min-width: 100%;
+		width: 100%;
+	}
+	.center,
+	footer {
+		width: 96%;
+	}
+	.parallax {
+		width: 130%;
+	}
+	.contact-form {
+		margin-right: 5px;
+	}
+}
+
+@media only screen and (max-width: 910px) {
+	.about-content {
+		.specialties {
+			.icon,
+			.icon:nth-of-type(2),
+			.icon:nth-of-type(5) {
+				margin: 0 50px;
+			}
+		}
+	}
+	.parallax {
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.parallax,
+	.city-txt {
+		display: none;
+	}
+	.top {
+		height: 220px;
+	}
+	.title-info {
+		text-align: center;
+		top: 60px;
+	}
+}
+
+@media only screen and (max-width: 630px) {
+	.contact-content {
+		.left,
+		.right {
+			width: 96%;
+			margin: 0 auto;
+		}
+		.right {
+			position: relative;
+			top: 0;
+			right: 0;
+		}
+		.contact-form {
+			width: 98%;
+			position: relative;
+			top: 0;
+			.contact-form-error-message {
+				position: relative;
+				top: 0;
+				margin-top: 20px;
+			}
+		}
+		ul {
+			margin: 20px 0;
+		}
+		.social {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media only screen and (max-width: 465px) {
+	.specialties {
+		.icon,
+		.icon:nth-of-type(2),
+		.icon:nth-of-type(5) {
+			margin: 0 15px;
+		}
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	header {
+		.center {
+			width: 100%;
+		}
+		.logo {
+			margin-left: 8px;
+		}
+		nav {
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 74px;
+			height: 0;
+			width: 100%;
+			background-color: #eee;
+			background: linear-gradient(180deg, #eee 98%, #d0d0d0 100%);
+			overflow: hidden;
+			transition: all 0.4s;
+			ul {
+				li {
+					display: block;
+					line-height: 1.5em;
+					text-align: right;
+					padding: 10px 20px 10px 0;
+					border-top: 1px solid #c0c0c0;
+					&:not(:first-child) {
+						margin-left: 0;
+					}
+					&:last-child {
+						border-bottom: 1px solid #c0c0c0;
+					}
+				}
+			}
+		}
+	}
+	.responsive-menu-btn {
+		display: block;
+	}
+	.title-info {
+		top: 67px;
+	}
+	h1 {
+		font-size: 34px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	footer {
+		font-size: 12px;
+		ul li {
+			&:first-of-type {
+				padding-right: 5px;
+			}
+			&:not(:first-of-type) {
+				padding: 0 5px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.scroll-top {
+		-webkit-transform: scale3d(0.8, 0.8, 0.8);
+		transform: scale(0.8, 0.8, 0.8);
+		right: -10px;
+	}
+}

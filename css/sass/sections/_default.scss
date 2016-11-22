@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-moz-tap-highlight-color: rgba(0, 0, 0, 0);
+	tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	user-select: text;
+	/* Prevent auto-font-scaling on iPhone */
+	-webkit-text-size-adjust: 100%;
+}
+
+html, body {
+	min-width: 1000px;
+}
+
+body {
+	font-family: $montserrat;
+	-webkit-font-smoothing: antialiased;
+	color: #333;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+p, h4 {
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 1.3em;
+}
+
+h4 {
+	margin-bottom: 30px;
+	font: {
+		size: 16px;
+		weight: normal;
+		family: $montserratBd;
+	}
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	transition: opacity 0.2s;
+	&.over,
+	&.down {
+		opacity: 0.5;
+	}
+	&.down {
+		text-decoration: underline;
+	}
+}
+
+button {
+	outline: none;
+	border: none;
+}
+
+strong {
+	font: {
+		weight: normal;
+		family: $montserratBd;
+	}
+}
+
+.center {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+.white-border {
+	position: absolute;
+	left: 100%;
+	width: 420px;
+}
+
+.main-content section {
+	padding-bottom: 50px;
+	&:nth-of-type(odd) {
+		background: #eee;
+	}
+	h3 {
+		width: 140px;
+		padding-top: 40px;
+		margin-bottom: 40px;
+		position: relative;
+		text: {
+			align: center;
+			decoration: underline;
+		}
+		font: {
+			family: $swatchit;
+			size: 20px;
+		}
+	}
+	&:nth-of-type(odd) h3 {
+		background: url('../images/down-arrow-white.png') no-repeat 30px 0;
+		background-size: 80px 30px;
+	}
+	&:nth-of-type(even) h3 {
+		background: url('../images/down-arrow-gray.png') no-repeat 30px 0;
+		background-size: 80px 30px;
+	}
+}

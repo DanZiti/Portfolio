@@ -1,0 +1,41 @@
+footer {
+	width: 960px;
+	position: relative;
+	margin: 15px auto;
+	font-size: 14px;
+	ul {
+		list-style: none;
+		display: inline-block;
+		li {
+			display: inline-block;
+			&:first-of-type {
+				padding-right: 10px;
+			}
+			&:not(:first-of-type) {
+				padding: 0 10px;
+				border-left: 1px solid #333;
+			}
+		}
+	}
+	.scroll-top {
+		width: 48px;
+		height: 48px;
+		cursor: pointer;
+		border-radius: 25px;
+		background: $blue;
+		border: 5px solid #fff;
+		position: absolute;
+		right: 0;
+		top: -35px;
+		background: {
+			image: url('../images/scroll-top-up-arrow.png');
+			repeat: no-repeat;
+			size: 19px 11px;
+			position: 10px 13px;
+		}
+		transition: background-color 0.4s;
+		&.over {
+			background-color: $gray;
+		}
+	}
+}

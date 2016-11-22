@@ -1,0 +1,40 @@
+.top {
+	height: 320px;
+	position: relative;
+	border-bottom: 10px solid #fff;
+	overflow: hidden;
+	z-index: 1;
+	.white-bg {
+		height: 100%;
+		width: 34%;
+		background: #fff;
+		position: absolute;
+		z-index: 1;
+	}
+	.city-txt {
+		position: absolute;
+		right: 15px;
+		top: 270px;
+		color: #fff;
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+	}
+}
+
+.title-info {
+	position: relative;
+	top: 100px;
+	h1 {
+		margin-bottom: 10px;
+		display: inline-block;
+		padding-bottom: 10px;
+		border-bottom: 1px dotted #333;
+	}
+}
+
+.parallax {
+	position: absolute;
+	right: -380px;
+	top: -70px;
+	width: 110%;
+	z-index: 0;
+}
