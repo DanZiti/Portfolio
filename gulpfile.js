@@ -41,7 +41,7 @@ gulp.task('htmlmin', ['copy'], () => {
 
 gulp.task('sass', () => {
 	return gulp.src('css/sass/**/*.scss')
-    	.pipe($.sass().on('error', $.sass.logError))
+    	.pipe($.sass({ outputStyle: 'compressed' }).on('error', $.sass.logError))
 		.pipe(gulp.dest('css/'));
 });
 

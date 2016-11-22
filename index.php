@@ -14,12 +14,12 @@
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 	</head>
-	<body class="overflow-<?= ($_GET['formSubmitted']) ? 'hidden' : 'visible' ?>">
+	<body class="overflow-<?= ($_GET['formSubmitted']) === 'true' ? 'hidden' : 'visible' ?>">
 		<?php
 			if ($_GET['formSubmitted'] === 'true') { ?>
 				<div id="successful-form-submission-overlay" class="successful-form-submission-overlay">
 					<div class="enclosure">
-						<button class="close-btn">X</button>
+						<button class="close-button">X</button>
 						<h3>Thank you for your submission!</h2>
 						<p>I will take a look at your email soon.</p>
 					</div>

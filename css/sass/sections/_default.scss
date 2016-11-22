@@ -19,6 +19,9 @@ body {
 	font-family: $montserrat;
 	-webkit-font-smoothing: antialiased;
 	color: #333;
+	&.overflow-hidden {
+		overflow: hidden;
+	}
 }
 
 h1, h2, h3 {
@@ -112,5 +115,48 @@ strong {
 	&:nth-of-type(even) h3 {
 		background: url('../images/down-arrow-gray.png') no-repeat 30px 0;
 		background-size: 80px 30px;
+	}
+}
+
+.successful-form-submission-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 3;
+	.enclosure {
+		width: 100%;
+		max-width: 450px;
+		position: relative;
+		top: 50%;
+		display: table;
+		margin: -75px auto 0;
+		min-height: 150px;
+		background: #fff;
+		box-shadow: rgba(0, 0, 0, 0.5);
+		.close-button {
+			font: {
+				size: 24px;
+				weight: bold;
+			}
+			color: #c0c0c0;
+			cursor: pointer;
+			background: none;
+			outline: none;
+			position: absolute;
+			top: 5px;
+			right: 8px;
+		}
+		p, h3 {
+			padding: 10px;
+			text-align: center;
+		}
+		h3 {
+			color: $blue;
+			margin-top: 30px;
+			font-size: 24px;
+		}
 	}
 }

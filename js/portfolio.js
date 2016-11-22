@@ -143,8 +143,7 @@
 	// control successful form submission overlay
 	var controlFormSubmissionOverlay = function() {
 		if (state.dom.formSubmissionOverlay !== null) {
-			var closeButton = d.querySelector('#successful-form-submission-overlay .close-btn');
-			$(closeButton).on(sv.interaction(), function() {
+			$('#successful-form-submission-overlay .close-button').on(sv.interaction(), function() {
 				return w.location.href = 'http://www.drzwebdev.com/';
 			});
 		}

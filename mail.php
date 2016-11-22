@@ -8,8 +8,7 @@
 		$emailSubject = "drzwebdev submission: $formSubject";
 		
 		// for redirect after form submission
-		//$homePage = "http://www.drzwebdev.com/?formSubmitted=true";
-		$homePage = "http://localhost:8888/portfolio/?formSubmitted=true"; // @TODO: REMOVE THIS WHEN READY FOR PROD
+		$homePage = "http://www.drzwebdev.com/?formSubmitted=true";
 		
 		// call form data
 		$name = $_POST["name"];
