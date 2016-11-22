@@ -8,7 +8,7 @@
 				<li><a href="javascript:void(0);" id="nav-contact" title="Get in Touch">contact</a></li>
 			</ul>
 		</nav>
-		<button id="responsive-menu-btn" class="responsive-menu-button">
+		<button id="responsive-menu-button" class="responsive-menu-button">
 			<span></span>
 			<span></span>
 			<span></span>

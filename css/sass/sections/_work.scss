@@ -1,5 +1,7 @@
 .work-content {
 	.work-block {
+		text-align: center;
+		margin: 20px 0;
 		.sample {
 			display: inline-block;
 			position: relative;
@@ -39,7 +41,6 @@
 			.links {
 				position: absolute;
 				bottom: 15px;
-				text-align: center;
 				width: 100%;
 				a {
 					display: inline-block;

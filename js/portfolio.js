@@ -7,7 +7,7 @@
 	var collectDOM = function() {
 		state.dom.instruction = d.getElementById('instruction');
 		state.dom.parallaxImage = d.getElementById('parallax');
-		state.dom.responsiveMenuButton = d.getElementById('responsive-menu-btn');
+		state.dom.responsiveMenuButton = d.getElementById('responsive-menu-button');
 		state.dom.$headerNavList = $('header nav ul');
 		state.dom.$headerNavListItems = $('header nav ul li');
 		state.dom.headerNav = d.querySelector('header nav');
