@@ -317,7 +317,6 @@ header {
         .work-content .work-block .sample .links a:nth-of-type(2) {
           margin-left: 20px; }
 
-/* TODO: ADD TRANSITIONED BORDER COLORS TO :focus STYLES FOR INPUT AND TEXTAREA */
 .contact-content {
   min-height: 365px; }
   .contact-content .left,
@@ -406,9 +405,12 @@ header {
       font-size: 12px;
       position: absolute;
       top: -20px;
-      display: none; }
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.2s; }
       .contact-content .contact-form .contact-form-error-message.SHOW {
-        display: block; }
+        visibility: visible;
+        opacity: 1; }
     .contact-content .contact-form > input:not([type='submit']),
     .contact-content .contact-form > textarea {
       font-family: "montserrat", sans-serif;
@@ -417,7 +419,6 @@ header {
       width: 100%;
       margin-bottom: 10px;
       padding: 8px 5px 5px 5px;
-      border: none;
       box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.5);
       background: #fff; }
     .contact-content .contact-form > textarea {
@@ -426,9 +427,16 @@ header {
     .contact-content .contact-form > input,
     .contact-content .contact-form > textarea {
       border-radius: 0;
-      /* Removes automatic rounded edges in iOS */ }
-      .contact-content .contact-form > input.invalid,
-      .contact-content .contact-form > textarea.invalid {
+      /* Removes automatic rounded edges in iOS */
+      outline: none;
+      transition: all 0.2s;
+      border: 1px solid rgba(0, 0, 0, 0.1); }
+      .contact-content .contact-form > input:focus,
+      .contact-content .contact-form > textarea:focus {
+        border: 1px solid rgba(14, 96, 190, 0.6); }
+      .contact-content .contact-form > input.invalid, .contact-content .contact-form > input.invalid:focus,
+      .contact-content .contact-form > textarea.invalid,
+      .contact-content .contact-form > textarea.invalid:focus {
         border: 1px solid #f00; }
     .contact-content .contact-form .submit-btn {
       font-family: "montserrat", sans-serif;
