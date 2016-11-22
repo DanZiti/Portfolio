@@ -20,7 +20,7 @@
 				<div id="successful-form-submission-overlay" class="successful-form-submission-overlay">
 					<div class="enclosure">
 						<button class="close-button">X</button>
-						<h3>Thank you for your submission!</h2>
+						<h3>Thank you for your submission!</h3>
 						<p>I will take a look at your email soon.</p>
 					</div>
 				</div>
