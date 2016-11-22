@@ -7,24 +7,24 @@ gulp.task('clean', () => {
 		.pipe($.clean({ force: true }));
 });
 
-gulp.task('copy', ['clean'], () => {
-	gulp.src(['*.php', 'favicon.ico'])
-		.pipe(gulp.dest('_prod/'));
+gulp.task('copy-base', ['clean'], () => {
 	gulp.src('css/style.css')
 		.pipe(gulp.dest('_prod/css/'));
+	gulp.src('favicon.ico')
+		.pipe(gulp.dest('_prod/'));
 	gulp.src('fonts/*')
 		.pipe(gulp.dest('_prod/fonts/'));
 	gulp.src('images/**/*')
 		.pipe(gulp.dest('_prod/images/'));
-	gulp.src('includes/*.php')
-		.pipe(gulp.dest('_prod/includes/'));
-	gulp.src(['js/*.js', 'js/*.min.js'])
+	gulp.src('js/*.min.js')
 		.pipe(gulp.dest('_prod/js/'));
+	gulp.src('mail.php')
+		.pipe(gulp.dest('_prod/'));
 	return gulp.src('pdf/*.pdf')
 		.pipe(gulp.dest('_prod/pdf/'));
 });
 
-gulp.task('htmlmin', ['copy'], () => {
+gulp.task('htmlmin', ['clean'], () => {
 	const opts = {
 		minifyJS: true,
 		minifyCSS: true,
@@ -45,7 +45,7 @@ gulp.task('sass', () => {
 		.pipe(gulp.dest('css/'));
 });
 
-gulp.task('uglify', ['copy'], () => {
+gulp.task('uglify', ['clean'], () => {
 	return gulp.src(['js/*.js', '!js/*.min.js'])
 		.pipe($.uglify())
 		.pipe(gulp.dest('_prod/js/'));
@@ -57,4 +57,4 @@ gulp.task('watch-sass', () => {
 	});
 });
 
-gulp.task('build', ['clean', 'copy', 'htmlmin', 'uglify']);
+gulp.task('build', ['clean', 'copy-base', 'htmlmin', 'uglify']);
