@@ -24,7 +24,7 @@
 			<form id="contact-form" class="contact-form" name="contact-form" action="mail.php" method="post">
 				<p id="contact-form-error-message" class="contact-form-error-message">Please fix the highlighted errors below.</p>
 				<input type="text" name="name" placeholder="name (required)">
-				<input type="email" name="email" placeholder="email (required)">
+				<input type="text" name="email" placeholder="email (required)">
 				<input type="text" name="subject" placeholder="subject (required)">
 				<textarea name="comments"></textarea>
 				<input type="submit" value="get in touch" class="submit-btn">
