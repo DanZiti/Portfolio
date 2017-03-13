@@ -52,7 +52,7 @@
 		<?php
 			include 'includes/footer.php';
 		?>
-		<script type="text/javascript" src="js/grindstone-v2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/grindstone-v2.2.0.min.js"></script>
 		<script type="text/javascript" src="js/services.js"></script>
 		<script type="text/javascript" src="js/portfolio.js"></script>
 	</body>
