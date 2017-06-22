@@ -13,7 +13,7 @@
 						<h4>StreamYourAd</h4>
 						<p>Once a client site... now a dummy site.</p>
 						<div class="links">
-							<a class="site" href="http://drzwebdev.com/sites/streamyourad" title="View Live Site"></a>
+							<a class="site" href="sites/streamyourad" title="View Live Site"></a>
 							<a class="git" href="https://github.com/dzervoudakes/streamyourad" title="View source on GitHub"></a>
 						</div>
 					</div>

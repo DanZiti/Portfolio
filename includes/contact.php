@@ -6,7 +6,7 @@
 			<p><strong>Warning:</strong> Do not use this form to pitch me your SEO service &ndash; it will instantly be marked as spam.</p>
 			<ul>
 				<li class="PHONE">609.634.6660</li>
-				<li class="EMAIL">dan@drzwebdev.com</li>
+				<li class="EMAIL">dan.zervoudakes@gmail.com</li>
 			</ul>
 			<div class="social">
 				<a href="https://www.facebook.com/dan.zervoudakes" title="Find Me on Facebook">
