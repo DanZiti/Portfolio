@@ -4,11 +4,11 @@
 		
 		// address and subject
 		$formSubject = $_POST["subject"];
-		$emailTo = "dan@drzwebdev.com";
+		$emailTo = "dan.zervoudakes@gmail.com";
 		$emailSubject = "drzwebdev submission: $formSubject";
 		
 		// for redirect after form submission
-		$homePage = "http://www.drzwebdev.com/?formSubmitted=true";
+		$homePage = "https://www.drzwebdev.com/?formSubmitted=true";
 		
 		// call form data
 		$name = $_POST["name"];
