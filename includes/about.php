@@ -42,6 +42,6 @@
 				<p>PHP</p>
 			</div>
 		</div>
-		<p>Thus far I have spent most of my time developing web applications and interactive iPad presentations within the biopharmaceutical industry &ndash; most notably working with <a href="https://www.rednucleus.com/" title="Learning Solutions for the Life Sciences Industry">Red Nucleus</a> and <a href="http://www.bms.com/pages/default.aspx" title="A Global Biopharmaceutical Company">Bristol-Myers Squibb</a>. Currently I am working with <a href="http://www.homeadvisor.com/" title="Get Matched to Top-Rated Remodelers, Plumbers and More">HomeAdvisor</a>, growing and revamping their online Service Professional Acquisition process and consumer portal.</p>			
+		<p>Thus far I have spent most of my time developing web applications and interactive iPad presentations within the biopharmaceutical industry &ndash; most notably working with <a href="https://www.rednucleus.com/" title="Learning Solutions for the Life Sciences Industry">Red Nucleus</a> and <a href="https://www.bms.com/" title="A Global Biopharmaceutical Company">Bristol-Myers Squibb</a>. Currently I am working with <a href="https://www.homeadvisor.com/" title="Get Matched to Top-Rated Remodelers, Plumbers and More">HomeAdvisor</a>, growing and revamping their online Service Professional Acquisition process and consumer portal.</p>			
 	</div>
 </section>

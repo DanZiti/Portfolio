@@ -27,7 +27,7 @@
 						<h4>Grindstone.js</h4>
 						<p>Lightweight jQuery alternative.</p>
 						<div class="links">
-							<a class="site" href="http://grindstonejs.drzwebdev.com" title="View Live Site"></a>
+							<a class="site" href="https://grindstonejs.drzwebdev.com" title="View Live Site"></a>
 							<a class="git" href="https://github.com/dzervoudakes/GrindstoneJS" title="View source on GitHub"></a>
 						</div>
 					</div>
@@ -41,7 +41,7 @@
 						<h4>Shift.js</h4>
 						<p>CSS3 transitions/transforms achieved through JavaScript.</p>
 						<div class="links">
-							<a class="site" href="http://shiftjs.drzwebdev.com" title="View Live Site"></a>
+							<a class="site" href="https://shiftjs.drzwebdev.com" title="View Live Site"></a>
 							<a class="git" href="https://github.com/dzervoudakes/ShiftJS" title="View source on GitHub"></a>
 						</div>
 					</div>
