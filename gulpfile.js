@@ -1,5 +1,4 @@
 const gulp = require('gulp');
-const pkg = require('./package.json');
 const $ = require('gulp-load-plugins')();
 
 gulp.task('clean', () => {
@@ -41,7 +40,7 @@ gulp.task('htmlmin', ['clean'], () => {
 
 gulp.task('sass', () => {
 	return gulp.src('css/sass/**/*.scss')
-    	.pipe($.sass({ outputStyle: 'compressed' }).on('error', $.sass.logError))
+		.pipe($.sass({ outputStyle: 'compressed' }).on('error', $.sass.logError))
 		.pipe(gulp.dest('css/'));
 });
 
