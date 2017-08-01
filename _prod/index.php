@@ -8,4 +8,4 @@
 				include 'includes/contact.php';
 			?> </article> <?php
 			include 'includes/footer.php';
-		?> <script type="text/javascript" src="js/grindstone-v2.2.0.min.js"></script><script type="text/javascript" src="js/services.js"></script><script type="text/javascript" src="js/portfolio.js"></script></body></html>
+		?> <script type="text/javascript" src="js/grindstone-v3.0.0.min.js"></script><script type="text/javascript" src="js/services.js"></script><script type="text/javascript" src="js/portfolio.js"></script></body></html>
