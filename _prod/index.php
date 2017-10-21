@@ -2,10 +2,10 @@
 			if ($_GET['formSubmitted'] === 'true') { ?> <div id="successful-form-submission-overlay" class="successful-form-submission-overlay"><div class="enclosure"><button class="close-button">X</button><h3>Thank you for your submission!</h3><p>I will take a look at your email soon.</p></div></div> <?php }
 		?> <?php
 			include 'includes/header.php';
-		?> <article class="main-content"><div class="top"><div class="white-bg"><img class="white-border" src="images/white-border.png" alt="Border"></div><div class="center"><div class="title-info"><h1>dan.zervoudakes</h1><h2>web / interactive developer</h2></div><p class="city-txt">Currently Based in Denver, Colorado</p></div><img id="parallax" class="parallax" src="images/denver-banner.jpg" alt="Denver Skyline"></div> <?php
+		?> <article class="main-content"><div class="top"><div class="white-bg"><img class="white-border" src="images/white-border.png" alt="Border"></div><div class="center"><div class="title-info"><h1>dan.zervoudakes</h1><h2>web application developer</h2></div><p class="city-txt">Currently Based in Denver, Colorado</p></div><img id="parallax" class="parallax" src="images/denver-banner.jpg" alt="Denver Skyline"></div> <?php
 				include 'includes/about.php';
 				include 'includes/work.php';
 				include 'includes/contact.php';
 			?> </article> <?php
 			include 'includes/footer.php';
-		?> <script type="text/javascript" src="js/grindstone-v3.0.1.min.js"></script><script type="text/javascript" src="js/services.js"></script><script type="text/javascript" src="js/portfolio.js"></script></body></html>
+		?> <script type="text/javascript" src="js/grindstone-v3.0.3.min.js"></script><script type="text/javascript" src="js/services.js"></script><script type="text/javascript" src="js/portfolio.js"></script></body></html>
