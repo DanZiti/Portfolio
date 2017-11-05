@@ -52,7 +52,7 @@
 		<?php
 			include 'includes/footer.php';
 		?>
-		<script type="text/javascript" src="js/grindstone.min.js"></script>
+		<script type="text/javascript" src="https://unpkg.com/grindstone@latest/dist/grindstone.min.js"></script>
 		<script type="text/javascript" src="js/services.js"></script>
 		<script type="text/javascript" src="js/portfolio.js"></script>
 	</body>
