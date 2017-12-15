@@ -15,5 +15,8 @@
     "gulp-uglify": "^1.5.3"
   },
   "engine": "node >= 0.10",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./bin/www --ignore 'public/**/*'"
+  }
 }
