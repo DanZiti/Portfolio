@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "description": "Compile the final output of my portfolio.",
-  "author": "Dan Zervoudakes",
+  "author": "dzervoudakes",
   "repository": {
     "type": "git",
     "url": "https://github.com/dzervoudakes/portfolio"
